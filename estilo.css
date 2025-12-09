@@ -1,0 +1,64 @@
+
+.titulo {
+    color: brown;
+    text-align: center;
+}
+
+/* ======= ESTILOS GERAIS ======= */
+/* Estilo básico da página */
+body {
+    background: #050505;    /* Cor de fundo clara */
+    font-family: Arial,sans-serif;   /* Fonte padrão */
+    color:aliceblue;
+    padding: 20px;  /* Espaçamento interno */
+}
+
+/* Título principal */
+h1 {
+    text-align: center;       /* Centraliza o texto */
+    margin-bottom: 20px;      /* Espaço abaixo do título */
+}
+
+/* ======= ESTILO DA TABELA ======= */
+
+table {
+    width: 80%;                    /* Largura da tabela */
+    margin: auto;                  /* Centraliza na página */
+    border-collapse: collapse;     /* Remove espaçamento interno da tabela */
+    background: rgb(73, 72, 72);             /* Fundo branco */
+}
+
+/* Estilo de todas as células (título e conteúdo) */
+th, td {
+    border: 1px solid #060606;    /* Borda cinza clara */
+    padding: 12px;             /* Espaçamento interno */
+    text-align: center;        /* Texto centralizado */
+}
+
+/* Células de cabeçalho */
+th {
+    background: #a91515ac;   /* Cor escura */
+    color: rgb(11, 11, 11);       /* Texto branco */
+}
+
+/* Células que usam rowspan — destacadas levemente */
+td[rowspan] {
+    background: #3a3a3a;   /* Fundo quase branco */
+    font-weight: bold;    /* Texto mais forte */
+}
+
+/* Rodapé usando colspan */
+.rodape {
+    background: #303030;   /* Mesma cor do cabeçalho */
+}
+
+.titulos {
+    color:aqua; /*cor dos nomes dos animes*/
+}
+.manga {
+    text-align: center;/*titulo no centro*/
+}
+
+.link {
+    color: aqua ; /* cor dos lnks*/
+}
